@@ -1,0 +1,46 @@
+.parent {
+  height: 100vh;
+  background-color: black;
+}
+
+.textpart {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.textparth1 {
+  font-size: 100px;
+  width: 100%;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.445);
+}
+
+.textparth3 {
+  color: antiquewhite;
+}
+
+
+.textpart:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.89) !important;
+  text-shadow: 2px 2px 15px !important;
+}
+
+@media screen and (max-width:600px) {
+  .textparth1 {
+    font-size: 60px;
+    width: 100%;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.445);
+  }
+
+
+}
+
+@media screen and (max-width:600px) {
+  .textparth1 {
+    font-size: 40px;
+  }
+}

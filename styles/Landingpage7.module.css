@@ -1,0 +1,39 @@
+.rotatedparent {
+    height: 100vh;
+    background-color: #b70909;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.rotatedrow {
+    border: 5px solid white;
+    transform: rotate(12deg);
+}
+
+.rotatedparent h1 {
+    color: #0095ff;
+    font-size: 70px;
+    border-bottom: 2px dashed white;
+    width: max-content;
+}
+
+.rotatedparentp {
+    color: #39b626;
+}
+
+.rotatedtextpart {
+    border-left: 5px solid #fff;
+    padding-left: 25px;
+}
+
+
+@media screen and (max-width : 700px) {
+    .rotatedrow {
+        transform: rotate(0deg);
+        border: none;
+    }
+
+    .rotatedtextpart {
+        margin-left: 20px;
+    }
+}
